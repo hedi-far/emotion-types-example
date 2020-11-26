@@ -14,7 +14,8 @@ const headerStyles = css`
 
 export default function Header() {
   return (
-    //when no line 3/4, TypeScript warning: Type '{ children: Element; css: SerializedStyles; }' is not assignable to type 'DetailedHTMLProps<HTMLAttributes<HTMLElement>, HTMLElement>'.
+    // When neither of the imports exist from lines 4 and 6, there is this error on this element:
+    // TypeScript warning: Type '{ children: Element; css: SerializedStyles; }' is not assignable to type 'DetailedHTMLProps<HTMLAttributes<HTMLElement>, HTMLElement>'.
     // Property 'css' does not exist on type 'DetailedHTMLProps<HTMLAttributes<HTMLElement>, HTMLElement>'.
     <header css={headerStyles}>
       <ul>
