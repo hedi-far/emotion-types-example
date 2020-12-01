@@ -13,7 +13,7 @@
     "strict": true,
     "noEmit": true,
     "jsx": "preserve",
-    "jsxImportSource": "@emotion/react",
+    // "jsxImportSource": "@emotion/react",
     "esModuleInterop": true,
     "downlevelIteration": true,
     "resolveJsonModule": true,
