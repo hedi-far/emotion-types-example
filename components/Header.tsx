@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import { css } from '@emotion/react';
-// -> no error message, compiled successfully
+// -> no error message, compiled successfully when:
 // import type {} from '@emotion/react/types/css-prop';
-// -> error message: Can't resolve '@emotion/react/types/css-prop'
+// -> error message: Can't resolve '@emotion/react/types/css-prop' when:
 // import {} from '@emotion/react/types/css-prop';
 
 const headerStyles = css`
